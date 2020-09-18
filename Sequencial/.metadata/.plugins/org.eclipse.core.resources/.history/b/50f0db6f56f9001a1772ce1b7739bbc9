@@ -1,0 +1,20 @@
+package PacoteJava;
+
+import java.util.Scanner;
+
+public class FabricaHorasMinSeg {
+	public static void main(String args[]) {
+		Scanner ler = new Scanner(System.in);
+		int horas, minutos, segundos;
+		
+		System.out.printf("Digite quantos segundos durou o evento da fábrica: ");
+		segundos = ler.nextInt();
+		
+		horas = (segundos/3600);
+		minutos = ((segundos % 3600) % 60);
+		
+		System.out.printf("A duração do evento foi de " + horas + "hora(s)" + minutos + " minuto(s) e "+
+				segundos + " segundos");
+		
+	}
+}

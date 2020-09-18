@@ -1,0 +1,19 @@
+package PacoteJava;
+
+import java.util.Scanner;
+
+public class DistanciaDoisPontos {
+	public static void main(String args[]) {
+			Scanner ler = new Scanner (System.in);
+	
+			int anos, mes, dias;
+			
+			System.out.printf("Digite sua idade em dias: ");
+			dias = ler.nextInt();
+			
+			anos = dias / 365;
+			mes = (anos % 365) / 30;
+			
+			System.out.printf("Você tem " + anos + "anos, " + mes + "mes(es) e " + dias + ("dias!"));
+	}
+}

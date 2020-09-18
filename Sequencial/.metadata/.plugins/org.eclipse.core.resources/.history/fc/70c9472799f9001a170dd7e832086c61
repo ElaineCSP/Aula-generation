@@ -1,0 +1,24 @@
+package PacoteJava;
+
+import java.util.Scanner;
+
+public class IdadeEmDias {
+	public static void main(String args[]) {
+		Scanner ler = new Scanner (System.in);
+		int res, dias, meses, anos;
+		
+		System.out.printf("Qual a sua idade? ");
+		anos = ler.nextInt();
+		
+		System.out.printf("Quantos meses você tem? ");
+		meses = ler.nextInt();
+		
+		System.out.printf("Quantos dias você tem? ");
+		dias = ler.nextInt();
+		
+		res = ((anos * 365) + (meses * 30) + dias); 
+		
+		System.out.printf("Sua idade em dias é %d", res);
+	}
+}
+

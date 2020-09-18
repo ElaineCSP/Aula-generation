@@ -1,0 +1,19 @@
+package PacoteJava;
+
+import java.util.Scanner;
+
+public class CustoConsumidor {
+	public static void main(String args[]) {
+		Scanner entrada = new Scanner(System.in);
+		float custoFabri, custoConsumidor, porcDistribuidor=28, imposto=45;
+		
+		System.out.printf("Digite o custo de fábrica: ");
+		custoFabri = entrada.nextFloat();
+		
+		porcDistribuidor = custoFabri (custoFabri * porcDistribuidor / 100);
+		imposto = custoFabri (custoFabri * imposto / 100);
+		custoConsumidor = custoFabri + porcDistribuidor + imposto;
+		
+		System.out.printf("O custo consumirdor é: ", custoConsumidor);
+	}
+}
