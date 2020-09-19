@@ -1,0 +1,19 @@
+package PacoteJava;
+
+public class vetorA {
+	public static void main(String[] args) {
+		
+		int[] vetorA = {1, 0, 5, -2, -5, 7};
+		int soma=0;
+		
+		soma = soma+vetorA[0]+vetorA[1]+vetorA[5];
+		System.out.println("A soma das posições 0, 1 e 5 do vetor A é: " + soma);
+		
+		vetorA[4]=100;
+		System.out.println("O valor da posição 4 do vetor mudou para: " + vetorA[4]);
+		
+		for(int i:vetorA) {
+			System.out.println(i);
+		}
+	}
+}

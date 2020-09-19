@@ -1,0 +1,31 @@
+package PacoteJava;
+
+import java.util.*;
+
+public class SomaParesQtdImpares {
+	public static void main (String[] args) {
+		Scanner entrada = new Scanner (System.in);		
+		int nums = 0, nPares = 0, somaPar=0, nImpar=0, qtdImpar=0;
+		
+		for (int i=0; i<3; i++) {
+			System.out.println("Digite um número: ");
+			nums = entrada.nextInt();
+			
+			if(nums%2 == 0) {
+			
+				nPares=nums;
+				somaPar=somaPar+nPares;
+			}
+			else {
+				qtdImpar++;
+				nImpar=nums;
+			}
+		}
+		
+		System.out.println("A soma dos números pares é: " + somaPar);
+		System.out.println("Foi digitado " + qtdImpar + " números impares!");
+		
+
+		}
+	
+}

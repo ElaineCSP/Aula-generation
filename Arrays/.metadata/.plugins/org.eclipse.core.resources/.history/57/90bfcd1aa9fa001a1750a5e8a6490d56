@@ -1,0 +1,32 @@
+package PacoteJava;
+
+import java.util.*;
+
+public class Matriz {
+	public static void main(String args[]) {
+		Scanner ler = new Scanner(System.in);
+		
+		int i, j, num, op=0;
+		
+		int [][] matriz1 = new int [2][2];
+		int [][] matriz2 = new int [2][2];
+		
+		int [][] matrizSoma = new int [2][2];
+		int [][] matrizSub = new int [2][2];
+		
+		for(i=0; i<2; i++) {
+			for(j=0;j<2;j++) {
+				System.out.printf("Digite um valor para matriz 1: ");
+				matriz1[i][j]=ler.nextInt();
+			}
+		}
+		
+		for(i=0; i<2; i++) {
+			for(j=0;j<2;j++) {
+				System.out.printf("Digite um valor para matriz 2: ");
+				matriz2[i][j]=ler.nextInt();
+			}
+		}
+	
+	}
+}

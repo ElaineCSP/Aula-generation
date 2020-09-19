@@ -1,0 +1,15 @@
+package PacoteJava;
+
+public class vetorA {
+	public static void main(String[] args) {
+		
+		int[] vetorA = {1, 0, 5, -2, -5, 7};
+		int soma=0;
+		
+		soma = soma+vetorA[0]+vetorA[1]+vetorA[5];
+		System.out.println("A soma do vetor A é: " + soma);
+		
+		vetorA[4]=100;
+		System.out.println(vetorA[4]);
+	}
+}

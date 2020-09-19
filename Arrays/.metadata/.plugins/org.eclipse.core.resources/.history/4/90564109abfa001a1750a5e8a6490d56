@@ -1,0 +1,52 @@
+package PacoteJava;
+
+import java.util.*;
+
+public class Matriz {
+	public static void main(String args[]) {
+		Scanner ler = new Scanner(System.in);
+		
+		int i, j, num, op=0;
+		
+		int [][] matriz1 = new int [2][2];
+		int [][] matriz2 = new int [2][2];
+		
+		int [][] matrizSoma = new int [2][2];
+		int [][] matrizSub = new int [2][2];
+		
+		for(i=0; i<2; i++) {
+			for(j=0;j<2;j++) {
+				System.out.printf("Digite um valor para matriz 1: \n");
+				matriz1[i][j]=ler.nextInt();
+			}
+		}
+		
+		for(i=0; i<2; i++) {
+			for(j=0;j<2;j++) {
+				System.out.printf("Digite um valor para matriz 2: ");
+				matriz2[i][j]=ler.nextInt();
+			}
+		}
+		
+		System.out.printf("Escolha uma opção: \n[1]Somar as duas matrizes;\n[2]Subtrair a primeira da segunda;"
+				+ "\n[3]Adicionar uma constante nas duas matrizes;\n[4]Imprimir as duas matrizes;\nSua opção: ");
+		op = ler.nextInt();
+		
+		switch(op) {
+			case 1:
+			for(i=0;i<2;i++) {
+				for(j=0;j<2;j++) {
+					matrizSoma[i][j] = matriz1[i][j] + matriz2[i][j];
+				}
+			}
+			for(i=0;i<2;i++) {
+				for(j=0;j<2;j++) {
+					System.out.printf("[%d]", matrizSoma[i][j]);
+				}
+				
+			}
+			break;
+		}
+	
+	}
+}

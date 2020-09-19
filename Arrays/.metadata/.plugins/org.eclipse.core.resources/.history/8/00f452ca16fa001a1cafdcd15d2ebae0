@@ -1,0 +1,17 @@
+package PacoteJava;
+
+public class vetorA {
+	public static void main(String[] args) {
+		
+		int[] vetorA = {1, 0, 5, -2, -5, 7};
+		int soma=0;
+		
+		for(int i=0; i < vetorA.length; i++) {
+			if(vetorA[0]==0 && vetorA[1]==1) {
+				soma = soma+vetorA[i];
+			}
+			
+		}
+		System.out.println("A soma das posições 0, 1 e 5 do vetor A é: " + soma);
+	}
+}
