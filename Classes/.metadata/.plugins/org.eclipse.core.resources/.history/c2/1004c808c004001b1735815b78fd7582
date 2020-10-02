@@ -1,0 +1,15 @@
+
+public class Cliente {
+	private String primeiroNome;
+	private String ultimoNome;
+	private int cpf;
+	
+	public Cliente(String primeiro, String ultimo, int cpf) {
+		primeiroNome = primeiro;
+		ultimoNome = ultimo;
+		cpf = cpf;
+	}
+	
+	public String getDadosCliente() {
+}
+

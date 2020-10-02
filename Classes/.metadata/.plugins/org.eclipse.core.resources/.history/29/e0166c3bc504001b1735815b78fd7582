@@ -1,0 +1,12 @@
+
+public class Aviao {
+	private int dia;
+	private String mes;
+	private int ano;
+	private int numeroVoo;
+	
+	public Aviao (int dia, String mes, int ano, int numeroVoo) {
+		String dadosDoVoo = dia + "/" + mes + "/" + ano + " - " + numeroVoo; 
+	}
+	
+}

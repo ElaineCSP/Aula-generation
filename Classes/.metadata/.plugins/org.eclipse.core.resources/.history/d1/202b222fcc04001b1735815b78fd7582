@@ -1,0 +1,7 @@
+
+public class InfosDoProduto {
+	public static void main(String args[]) {
+		ProdutoEletronico produto = new ProdutoEletronico("Purificador de água", " \nna cor: Cinza", "\nmodelo: Consul");
+		System.out.println(produto.getInfosDoProduto());
+	}
+}

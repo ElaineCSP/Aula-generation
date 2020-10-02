@@ -1,0 +1,17 @@
+
+public class ProdutoEletronico {
+	private String produto;
+	private String cor;
+	private String marca;
+	
+	public ProdutoEletronico(String produto, String cor, String marca) {
+		produto = produto;
+		cor = cor;
+		marca = marca;
+	}
+	
+	public String getInfosDoProduto() {
+		String infosDoProduto = produto + " " + cor + " " + marca;
+	}
+	
+}
