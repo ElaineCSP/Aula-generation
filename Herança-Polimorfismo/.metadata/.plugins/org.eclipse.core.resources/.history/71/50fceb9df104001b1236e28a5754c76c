@@ -1,0 +1,13 @@
+
+public class TesteAnimal {
+	public static void main(String args[]) {
+		Cachorro Cachorro = new Cachorro("Dora", 3, "AuAuAu", "Ela corre");
+		Cavalo Cavalo = new Cavalo("Dorivalda", 13, " hinn in in", "Ele cavalga");
+		Preguiça Preguiça = new Preguiça("Cachorro", 10, "ióó ió", "Ela sobe em árvores");
+		
+		System.out.println(Cachorro.getNome());
+		System.out.println(Cavalo.getEmiteSom());
+		System.out.println(Preguiça.getIdade());
+	}
+	
+}
