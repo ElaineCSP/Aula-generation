@@ -1,0 +1,8 @@
+package Herança;
+
+public class Fornecedor {
+	private double valorCredito;
+	private double valorDivida;
+	
+	public Fornecedor()
+}

@@ -1,0 +1,8 @@
+package Herança;
+
+public class TesteEmpregado {
+	public static void main(String args[]) {
+		Empregado testeEmpregado = new Empregado("Manuel", "\nRua Parada \n", 23234545, 123, 3500.0, 2.5);
+		calcularSalario.TesteEmpregado();
+	}
+}

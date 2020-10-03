@@ -1,0 +1,11 @@
+package Herança;
+
+public class Fornecedor {
+	private double valorCredito;
+	private double valorDivida;
+	
+	public Fornecedor(String nome, String endereço, int telefone, double valorCredito, double valorDivida) {
+		super (nome, endereço, telefone);
+		
+	}
+}

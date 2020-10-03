@@ -1,0 +1,7 @@
+package Herança;
+
+public class TesteEmpregado {
+	public static void main(String args[]) {
+		Empregado testeEmpregado = new Empregado("Manuel", "\nRua Parada", 23234545, 123, 2002.0, 2.5);
+	}
+}

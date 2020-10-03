@@ -1,0 +1,12 @@
+package Herança;
+
+public class Fornecedor extends Pessoa1{
+	private double valorCredito;
+	private double valorDivida;
+	
+	public Fornecedor(String nome, String endereço, int telefone, double valorCredito, double valorDivida) {
+		super (nome, endereço, telefone);
+		this.valorCredito = valorCredito;
+		this.valorDivida = valorDivida;
+	}
+}

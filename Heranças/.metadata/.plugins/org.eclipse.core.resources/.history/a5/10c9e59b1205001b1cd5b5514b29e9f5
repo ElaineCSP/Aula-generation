@@ -1,0 +1,12 @@
+package Herança;
+
+public class TesteAdministrador {
+	public static void main(String args[]) {
+		Administrador testeAdministrador = new Administrador("Manuel", "Rua Parada \n", 23234545, 1000);
+		
+		System.out.println(testeAdministrador.getNome());
+		System.out.println(testeAdministrador.getEndereço());
+		System.out.println(testeAdministrador.getTelefone());
+		System.out.println("O valor da ajuda de custos é de: " + testeAdministrador.getAjudaDeCusto());
+	}
+}

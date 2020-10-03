@@ -1,0 +1,8 @@
+package Herança;
+
+public class TesteAdministrador {
+	public static void main(String args[]) {
+		Administrador testeAdministrador = new Administrador("Manuel", "\nRua Parada \n", 23234545, 1000);
+		System.out.println(testeAdministrador);
+	}
+}

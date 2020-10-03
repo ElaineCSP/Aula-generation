@@ -1,0 +1,19 @@
+package Herança;
+
+public class Empregado extends Pessoa1{
+	private int codigoSetor;
+	private double salarioBase;
+	private double imposto;
+	
+	public Empregado (String nome, String endereço, int telefone, int codigoSetor, double salarioBase, double imposto) {
+		super(nome, endereço, telefone);
+		this.codigoSetor = codigoSetor;
+		this.salarioBase = salarioBase;
+		this.imposto = imposto;
+	}
+	
+	void calcularSalario() {
+		System.out.println("O valor do sálario é: " + (imposto * 100)/salarioBase);
+	}
+
+}
