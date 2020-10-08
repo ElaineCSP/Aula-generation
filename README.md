@@ -1,2 +1,2 @@
 # Aula-generation
-Curso Generation - Exercícios de lógica de programação
+Curso Generation - Exercícios de lógica de programação com Java
