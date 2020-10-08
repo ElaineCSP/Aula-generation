@@ -1,2 +1,2 @@
 # Aula-generation
-aulas desenvolvidas no curso da generation
+Curso Generation - Exercícios de lógica de programação
